@@ -14,13 +14,18 @@ $(function() {
     }
   });
 });
-$('.emailsub').on('submit', function(event) {
+$('.emailsub').on('submit', function(event) 
+{
+  var farttrue = false;
    event.preventDefault();
    if ( $($(".emailsub input[name=emailbox]")).val() == '' ) {
       alert('You missed the field.');
-     
+      farttrue = true;
    } else {
       alert('Thanks for filling the field!');
+   }
+   if (farttrue = true){
+    fartscroll()
    }
 });
 

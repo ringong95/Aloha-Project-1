@@ -10,16 +10,16 @@
 	</title>
 	<link rel="stylesheet" href="css/flickity.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="build/css/style.css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
 </head>
 <body>
 	<header>
-
+	<!-- <a class="screen-reader-text" href="#SHOP"> -->
 		<!-- remove that script please or i fail -->
 		<!-- <h1>aloha</h1> -->
-		<div  class="aloha" >
+		<div class="aloha" >
 			<img src="assets/images/aloha-logo.svg" alt="Aloha Logo">
 		</div>
 		<div class="cart" >
@@ -28,16 +28,16 @@
 		<nav class="navigation brandfontcolor raleway"> 
 		<ul class="navlist">
 				<li>
-					<a class="brandfontcolor" href="#ABOUT">ABOUT </a>
+					<a class="brandfontcolor uppercase" href="#ABOUT">about </a>
 				</li>
 				<li>
-					<a class="brandfontcolor" href="#SHOP">SHOP </a>
+					<a class="brandfontcolor uppercase" href="#SHOP">shop </a>
 				</li>
 				<li>
-					<a class="brandfontcolor" href="#FEATURED">FEATURED </a>
+					<a class="brandfontcolor uppercase" href="#FEATURED">feature </a>
 				</li>
 				<li>
-					<a class="brandfontcolor" href="#UPDATES">UPDATES </a>
+					<a class="brandfontcolor uppercase" href="#UPDATES">updates </a>
 				</li>
 			</ul>
 		</nav>
@@ -60,7 +60,7 @@
 	<section class="hand-crafted" >
 
 		<div id="ABOUT" class="hand playfair">
-			<h3 class="italic ">Hand-Crafted</h3> <h3 class="bold">Styles</h3>
+			<h3 class="italic ">Hand-Crafted <span class="bold">Styles</span></h3>
 		</div >
 		<div class="sells-only-the raleway">
 			<p>Aloha Apparel Co. Sells only the finest ready-to-travel clothing. Browse our current selection of prodcuts or sign-up for updates below.</p>
@@ -69,29 +69,29 @@
 
 <section class="categorys" id="SHOP">
 	<ul class="categorys">
-		<li class="mens raleway allcaps">
+		<li class="mens raleway color allcaps">
 
 			<p> Men's </p>
 
 		</li>
 
-		<li class="trends raleway allcaps">
-			<p> Trends </p>
+		<li class="trends raleway color uppercase">
+			<p class="raleway"> Trends </p>
 		</li>
 
-		<li class="glasses raleway allcaps">
-			<p> Glasses </p>
+		<li class="glasses raleway color uppercase">
+			<p class="raleway"> Glasses </p>
 		</li>
 
-		<li class="sale raleway allcaps">
-			<p> Sale </p>
+		<li class="sale raleway color uppercase">
+			<p class="raleway"> Sale </p>
 		</li>
 
-		<li class="bags raleway allcaps">
-			<p> Bag </p>
+		<li class="bags raleway color uppercase">
+			<p class="raleway"> Bag </p>
 		</li>
-		<li class="womens raleway allcaps">
-			<p> Women's </p>
+		<li class="womens raleway color uppercase">
+			<p class="raleway"> Women's </p>
 		</li>
 
 	</ul>
@@ -100,7 +100,8 @@
 
 <section class="mostlovedblock" id="FEATURED">
 	<h3>
-		<p class="italic playfair">Most-Loved </p> <p class="bold playfair"> Products</p>
+		<p class="italic playfair">Most-Loved <span class="bold playfair"> Products
+		</span></p>
 	</h3>
 	<div class="container js-flickity carousel lovedproduct" data-flickity='{"cellAlign": "left","prevNextButtons": false, "contain": true}'>
 		<div class="carousel-cell">
@@ -191,11 +192,11 @@
 
 <footer  class=" socialmedia">
 
-	<div class="contacts" >
-		<p>&copy;2016 Aloha Apperal Co.</p>
-		<p>Powered by HTML. and CSS.</p>
+	<div class="contacts color" >
+		<p class="colo">&copy;2016 Aloha Apperal Co.</p>
+		<p class="color">Powered by HTML. and CSS.</p>
 	<br>
-	<p>604-604-6040. <a href="mailto:info@alohaapparel.com"> 	info@alohaapparel.com</a></p>
+	<p class="color">604-604-6040. <a class="underline color" href="mailto:info@alohaapparel.com"> 	info@alohaapparel.com</a></p>
 	<!-- This text is darkened -->
 <br>
 <p class="address">1490 Broadway</p>
@@ -225,6 +226,6 @@
 <script src="javascript/jquery-3.1.1.js"></script>
 <script src="http://code.onion.com/fartscroll.js"></script>
 <script src="javascript/main.js"></script>
-
+<script src="tota11y.min.js"></script>
 </body>
 </html>

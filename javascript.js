@@ -13,7 +13,7 @@ $(function() {
       }
     }
   });
-});
+
 $('.emailsub').on('submit', function(event) 
 {
   var farttrue = false;
@@ -29,5 +29,5 @@ $('.emailsub').on('submit', function(event)
    }
 });
 
-
+});
 

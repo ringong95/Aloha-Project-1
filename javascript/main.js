@@ -13,7 +13,7 @@ $(function() {
       }
     }
   });
-
+});
 $('.emailsub').on('submit', function(event) 
 {
   var farttrue = false;
@@ -22,12 +22,11 @@ $('.emailsub').on('submit', function(event)
       alert('You missed the field.');
       farttrue = true;
    } else {
-      alert('Thanks for subscribing!');
+      alert('Thanks for filling the field!');
    }
    if (farttrue = true){
     fartscroll()
    }
-});
 });
 
 

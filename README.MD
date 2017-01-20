@@ -1,30 +1,9 @@
+# Summary
+For our first project, we re-created fashion website using Html, CSS and git to submit it.
 
-# Aloha project part 1
+For the 2nd half of the project, we replaced all the floats from CSS into Flexbox, and used Javascript with Jquery to implement a smooth scrolling links and an image slider.
 
-## The goal was to build a website similar to an image that was given.
+#What did i learn?
 
-### Link to my website : <https://shamu92.github.io/Aloha-project-01/>
-
-
-#### This project was done using HTML, CSS, and Java Script.
-
-###### I made a webpage for Aloha Apparel using the things that we learned the first week of class.
-
-### This is part two of project 1.
-
-##### The websiste is fully optimized for three different screen sizes.
-
-##### I added Jquery plug-ins to enable smooth scrolling and the gallery of products with a slider. An alert was added to the 
-
-##### email submit form to make sure that the user inputs a valid email address.
-
-##### I downloaded and added the images that were provided for this part of the project. 
-
-###### I also took into acount the comments about part 1 of this project.
-
-#### This website was tested across most major browsers.
-
-##### I also tried to add the simpleCart plug in as a stretch goal. It doesn't work right now, but I believe it's very close. 
-
-### Created by Sasha Altshteyn
+During this project i learned that making mistakes while working is not an issue as long as i can work past it. Using floats was difficult to understand at first. Flex box instead was simple to conceptually understand.  Java scipt felt overwhelming at first, learning so much so quickly however with all the resources and pratice i was able to implement it into the website easily with JQuiery. 
 
